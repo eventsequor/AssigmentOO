@@ -46,13 +46,13 @@ define
             case L2
             of Y|M2 then
                 if Y<X then Ln in
-                L=Y|Ln
-                {self partition(M2 X Ln R)}
+                    L = Y|Ln
+                    {self partition(M2 X Ln R)}
                 else Rn in
-                R=Y|Rn
-                {self partition(M2 X L Rn)}
+                    R = Y|Rn
+                    {self partition(M2 X L Rn)}
                 end
-            [] nil then L=nil R=nil
+            [] nil then L = nil R = nil
             end
         end
 
