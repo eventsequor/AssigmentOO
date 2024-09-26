@@ -9,9 +9,9 @@ import
 define
    % CALL PROGRAM
    {System.showInfo "Main program execution:\n"}
-   %{Task1.mainTask}
-   %{Task2.mainTask}
-   %{Task3.mainTask}
+   {Task1.mainTask}
+   {Task2.mainTask}
+   {Task3.mainTask}
    {Task4.mainTask}
    {Exit 0}
 end
