@@ -19,10 +19,12 @@ You if you are in windows you have to setup the sh environment variable or execu
 ``` sh
 sh run.sh
 ``` 
-## Task1
-This task talks about open intervals of numbers, the implementation is in the Task1.oz file, however, there is a Main.oz file that calls the function, if you want to run the program independently, you must create another *.oz file, compile it and run it, the code you must put in the file is the following.
+## Task Execution
+If the files *.ozf for each program you have to compile it
 
-In the other hand the Task1.oz has a group of function to test the requeriment and when you execute the program, you will see the results in the shell console, you also could check the code looking for procedures that starts with the name Test*
+Each point of the task has a Task*.oz file, this file has the implementation, a group of functions to test the requirement and when you run the program, you will see the results in the shell console, you can also review the code looking for procedures that begin with the name Test*
+
+This is a example to test only one task or point, then you have to compile and then execute you_file.ozf
 
 ``` oz
 functor

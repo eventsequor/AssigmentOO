@@ -352,6 +352,9 @@ define
     end
 
     proc {MainTask}
+        {Show "\n============================"}
+        {Show "========== Task 4 =========="}
+        {Show "============================\n"}
         {Test1}
         {Test2}
         {Test3}
@@ -385,5 +388,4 @@ define
             {ATM1 getExternalAccountBalance(Account2 External)}
         end
     end
-    {MainTask}
 end
